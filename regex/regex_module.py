@@ -1,6 +1,6 @@
 import re
 
-string = "Hello Worldians!! Welcome to Python Course Session 3" 
+string = "Hello Learners!! Welcome to Python Course Session 3" 
 
 ## Find a specific word 
 # pattern = re.compile("Hello") 
@@ -33,9 +33,9 @@ string = "Hello Worldians!! Welcome to Python Course Session 3"
 # print(splits) 
 
 ## Find and replace using regex
-pattern = re.compile("[^a-zA-Z0-9]") 
-replaced = pattern.sub(string=string, repl="*")
-print(replaced) 
+# pattern = re.compile("[^a-zA-Z0-9]") 
+# replaced = pattern.sub(string=string, repl="*")
+# print(replaced) 
 
 ## Regex groups 
 # pattern = re.compile("([^a-zA-Z0-9 ]+)") 

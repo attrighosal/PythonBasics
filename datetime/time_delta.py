@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 # print(today+timedelta(days=365))
 
 # currDate = datetime.today()
-# futureDate = datetime(2023, 1, 9, 21, 0, 0)
+# futureDate = datetime(2023, 6, 5, 12, 0, 0)
 # diff = futureDate - currDate
+# print(diff)
 # print(type(diff))

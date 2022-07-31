@@ -1,6 +1,6 @@
 import json
 
-jsonString = '{ "id": "5c8a1d5b0190b214360dc097", "course": "Python Session 1","Date": "18/12/2021"}' 
+jsonString = '{ "id": "5c8a1d5b0190b214360dc097", "course": "Python Session 1","Date": "26/12/2021"}' 
 
 # Convert json string to dict
 # course = json.loads(jsonString) 
@@ -21,7 +21,7 @@ jsonString = '{ "id": "5c8a1d5b0190b214360dc097", "course": "Python Session 1","
 
 # Writing to a json file 
 # f = open("json/course_write.json", "w") 
-# course["Date"] = "15/01/2022"
+# course["Date"] = "09/07/2022"
 # json.dump(course, f)
 # f.close() 
 
@@ -38,13 +38,13 @@ jsonString = '{ "id": "5c8a1d5b0190b214360dc097", "course": "Python Session 1","
 #     print(value) 
 
 # Read json from file in the form of list
-f = open("json/courses.json", "r") 
-course = json.load(f) 
-f.close() 
+# f = open("json/courses.json", "r") 
+# course = json.load(f) 
+# f.close() 
 # print(course) 
 # print(type(course)) 
-for crs in course: 
-    print(crs)
-    print(type(crs))
+# for crs in course: 
+#     print(crs)
+#     print(type(crs))
 
 

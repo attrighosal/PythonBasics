@@ -1,5 +1,7 @@
 import subprocess
+import os 
 
+os.chdir("subprocess")
 cfile = "program.c"
 javafile = "Program.java"
 # cppfile = "program.cpp"

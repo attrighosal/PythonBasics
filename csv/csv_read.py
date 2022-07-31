@@ -18,7 +18,7 @@ with open(filename, 'r') as csvfile:
   
     # extracting each data row one by one
     for row in csvreader:
-        rows.append(row) 
+        rows.append(row)
 
 print(fields)
 print(rows)

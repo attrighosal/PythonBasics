@@ -3,19 +3,19 @@ import requests
 ## GET method using requests library 
 # google_url = "http://www.google.com"
 # response = requests.get(google_url) 
-# print(response.content) 
+# print(response.status_code) 
 
 # Using query parameters in GET 
-# parameter = {"q":"python", "a":"b"}
-# google_search_url = "http://www.google.com/search"
-# response = requests.get(google_search_url, params=parameter) 
-# print(response.text) 
+parameter = {"q":"python"}
+google_search_url = "http://www.google.com/search"
+response = requests.get(google_search_url, params=parameter) 
+print(response.text) 
 
 ## POST method 
-http_url = "https://httpbin.org/post" 
-json_data = {'username':'mathew','password':'1234'}  
-response = requests.post(http_url,data = json_data, headers={'Accept': 'application/json'}) 
-print(response.text) 
+# http_url = "https://httpbin.org/post" 
+# json_data = {'username':'mathew','password':'1234'}  
+# response = requests.post(http_url,data = json_data, headers={'Accept': 'application/json'}) 
+# print(response.text) 
 
 ## Cookies and Sessions 
 # http_url = "https://httpbin.org/cookies" 

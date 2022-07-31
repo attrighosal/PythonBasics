@@ -6,12 +6,14 @@ import sys
 # print(sys.version)
 
 ## Imported Modules Using sys
+# index 
 # for i in sys.modules:
-#     print(i, end="\n")
+#     print(i)
 
 ## Print Paths
-# for path in sys.path:
-#     print(path)
+# sys.path.append("sample_path")
+# for i in sys.path:
+#     print(i)
 
 
 #### Input/ Outputs 
@@ -21,6 +23,7 @@ import sys
 #     if line.rstrip() == "q":
 #         break
 #     print(line)
+# print("End here")
 
 ## Output to CLI
 # sys.stdout.write("Hello World !!\n")

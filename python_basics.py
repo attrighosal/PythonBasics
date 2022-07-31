@@ -1,4 +1,6 @@
-a = {"name":"attri", "Date":"08/01/2022", "course":"Python"}
-b = ["arun", "08/01/2022", "Java"]
+a = {10:"Messi", 7:"Ronaldo", "11":"Neymar"}
+a[18] = "Virat"
+a[7] = "Cavani"
+a[12] = ["Sachin", "Sourav"] 
 
-print(a["Date"])
+print(a[12][1])

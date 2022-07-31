@@ -8,11 +8,11 @@ import os
 #### OS Directory Operations 
 
 ## OS CWD 
-# print(os.getcwd())
+# print("Initially:",os.getcwd())
 
 ## OS Change Directory 
 # os.chdir('os')
-# print(os.getcwd())
+# print("Finally:",os.getcwd())
 
 ## OS Make Directory
 # os.mkdir("temp")
@@ -31,7 +31,7 @@ import os
 # file = open("temp_file.txt", "w")
 
 ## OS Write to file
-# file.write("Hello Worldians!!")
+# file.write("Hello World!!")
 # file.close()
 
 ## OS Read from file

@@ -16,5 +16,7 @@ import random
 # random.shuffle(list_of_numbers)
 # print(list_of_numbers)
 
-# random.seed(5)
+# random.seed(3)
 # print(random.randint(2,100))
+
+# 045128769

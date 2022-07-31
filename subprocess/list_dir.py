@@ -5,8 +5,9 @@ import subprocess
 # subprocess.run('ls') 
 
 ## List all the files with more specfic details in cwd 
-lt = subprocess.run('ls -la', capture_output=True, shell=True, text=True)
+lt = subprocess.run('ls -la', shell=True, capture_output=True, text=True)
 print(lt.returncode)
+print(lt.stdout)
 print(lt.stderr)
 
 ## Using shell is vulnerable to security leaks hence using list []
